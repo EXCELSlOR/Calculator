@@ -22,20 +22,20 @@
   </rowConstraints>
    <children>
       <TextField fx:id="display" GridPane.columnSpan="4" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="7" GridPane.rowIndex="1" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="7" GridPane.rowIndex="1" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="4" GridPane.rowIndex="2" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="4" GridPane.rowIndex="2" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="1" GridPane.rowIndex="3" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="1" GridPane.rowIndex="3" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
       <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="." GridPane.rowIndex="4" />
-      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="." GridPane.rowIndex="4" />
+      <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#inputDigitAction" prefHeight="30.0" prefWidth="30.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
       <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4" />
       <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4" />
    </children>

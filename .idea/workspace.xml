@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094485b5-68ff-4a90-a2a7-f8a727b7122b" name="Changes" comment="переименование файлов проекта" />
+    <list default="true" id="094485b5-68ff-4a90-a2a7-f8a727b7122b" name="Changes" comment="создание объектной модели приложения">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/calculator/view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/calculator/view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,14 +35,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Work/IT-Academy/Java/calculator/src/main/java/org/example/calculator"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\IT-Academy\Java\calculator\src\main\java\org\example\calculator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\IT-Academy\Java\calculator\src\main\resources\org\example\calculator" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.calculator.Application" />
@@ -100,12 +115,30 @@
       <option name="project" value="LOCAL" />
       <updated>1703217158173</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="создание разметки приложения">
+      <option name="closed" value="true" />
+      <created>1703217406724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703217406724</updated>
+    </task>
+    <task id="LOCAL-00006" summary="создание объектной модели приложения">
+      <option name="closed" value="true" />
+      <created>1703217490433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703217490433</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создание шаблона проекта" />
     <MESSAGE value="переименование файлов проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="переименование файлов проекта" />
+    <MESSAGE value="создание разметки приложения" />
+    <MESSAGE value="создание объектной модели приложения" />
+    <option name="LAST_COMMIT_MESSAGE" value="создание объектной модели приложения" />
   </component>
 </project>
