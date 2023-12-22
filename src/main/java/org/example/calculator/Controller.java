@@ -17,4 +17,24 @@ public class Controller {
         String value = ((Button)event.getSource()).getText();
         display.setText(display.getText() + value);
     }
+
+    @FXML
+    private void inputOperationAction(ActionEvent event) {
+        model.setFirstNumber(Double.parseDouble(display.getText()));
+        String value = ((Button)event.getSource()).getText();
+        switch (value){
+            case "+":
+                model.setOperation(Model.Operation.addition);
+                break;
+            case "-":
+                model.setOperation(Model.Operation.subtraction);
+                break;
+            case "*":
+                model.setOperation(Model.Operation.multiplication);
+                break;
+            case "/":
+                model.setOperation(Model.Operation.division);
+                break;
+        }
+    }
 }
